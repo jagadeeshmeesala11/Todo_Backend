@@ -1,5 +1,5 @@
 const { DataSource } = require("typeorm");
-const Task = require("./entity/Task");
+const Task = require("./Entity/Task");
 
 const AppDataSource = new DataSource({
   type: "sqlite",
